@@ -34,13 +34,16 @@ html{
     border-radius: 10px;
     cursor: pointer;
 }
-#logo{
-    margin: 10px 34px;
+.clip-circle{
+    clip-path: circle(22.0% at 49% 46%);
 }
-#logo img{
-    height: 59px;
+/* #logo{
+    margin: 3px 20px;
+} */
+/* #logo img{
+    height: 190px;
     margin: 3px 6px;
-}
+} */
 #navbar::before{
     content: "";
     background-color: black;
@@ -195,6 +198,7 @@ footer{
 }
 #clients img{
     height: 124px;
+    z-index: -3;
 }
 .client-item{
     padding: 34px;
